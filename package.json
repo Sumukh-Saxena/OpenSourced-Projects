@@ -1,8 +1,8 @@
 {
   "name": "tab-grouper",
-  "displayName": "Tab grouper",
+  "displayName": "Tab Grouper",
   "version": "0.0.1",
-  "description": "A basic Plasmo extension",
+  "description": "A basic Plasmo extension for making tab groups",
   "author": "Sumukh",
   "scripts": {
     "dev": "plasmo dev",
@@ -24,8 +24,9 @@
     "typescript": "5.3.3"
   },
   "manifest": {
-    "host_permissions": [
-      "https://*/*"
+    "permissions": [
+      "tabs",
+      "tabGroups"
     ]
   }
 }
